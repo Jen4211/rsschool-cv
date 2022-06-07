@@ -16,6 +16,7 @@ img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
 
+
 body {
    display: flex;
    flex-direction: column;
@@ -27,3 +28,21 @@ body {
    margin: 0 auto;
 }
 
+.nav-list {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center; 
+   list-style: none;
+}
+
+.nav-link {
+   padding: 0 20px;
+   line-height: 50px;
+}
+
+.image img {
+   display: block;
+   width: 200px;
+   height: 250px;
+   border-radius: 50%;
+}
