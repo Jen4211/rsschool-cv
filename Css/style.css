@@ -16,11 +16,16 @@ img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
 
+html {
+   scroll-behavior: smooth; 
+ }
 
 body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
 }
 
 .container {
@@ -45,4 +50,32 @@ body {
    width: 200px;
    height: 250px;
    border-radius: 50%;
+}
+
+section h1 {
+   font-size: 30px;
+   text-transform: uppercase;
+   line-height: 2em;
+}
+
+section h2 {
+   font-size: 25px;
+   text-transform: uppercase;
+   line-height: 3em;
+}
+
+.logo img {
+   display: block;
+   width: 150px;
+   height: 250px;
+}
+
+.container-footer {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+   margin-top: 100px;
+   height: 150px;
+   background-color: rgb(165, 161, 161);
 }
