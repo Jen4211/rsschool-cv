@@ -2,12 +2,108 @@
 <html lang="ru">
 <head>
    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+   <link rel="icon" href="assets/favicon.ico">
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Html CV</title>
+   <title>CV</title>
 </head>
 <body>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, similique ex ab mollitia reprehenderit rem facilis asperiores dignissimos libero officia facere, amet corrupti impedit porro nostrum quaerat iusto magnam esse.</p>
+   <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></a></li>
+               <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
+               <li class="nav-item"><a href="#scills" class="nav-link">Scills</a></li>
+               <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+               <li class="nav-item"><a href="#stressLess" class="nav-link">StressLess</a></li>
+               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+               <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+               <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main class="main">
+      <div class="container">
+        <div class="image">
+           <img src="/assets/img/photo.png" alt="My photo">
+        </div> 
+        <section>
+           <h1>Yauheni Huletski</h1>
+           <p>JUNIOR FRONT END DEVELOPER</p>
+        </section>
+        <section id="contacts">
+           <h2>Contacts</h2>
+           <ul class="list-contacts">
+              <li>Email:<a href="https://mail.google.com/">jengulya4211@gmail.com</a></li>
+              <li>GitHab:<a href="https://github.com/">Jen4211</a></li>
+              <li>Telegram:<a href="https://t.me/Yuheni_Huletski">@Yuheni_Huletski</a></li>
+              <li>Discord:<a href="https://discord.com/">Evgeny Guletskiy(Jen4211)#0577</a></li>
+           </ul>
+        </section>
+        <section id="about me">
+           <h2>About me</h2>
+           <p> I am responsible for the tasks assigned to me. 
+            I like to learn new things and develop. 
+            I am sociable and I am good at joining a new team.
+            I have a good sense of humour.</p>
+        </section>
+        <section id="scills">
+           <h2>Scills</h2>
+           <ul class="list-scills">
+              <li>HTML (basic)</li>
+              <li>CSS (basic)</li>
+              <li>Version control: Git (basic)</li>
+              <li>Editors: VSCode</li>
+           </ul>
+        </section>
+        <section id="code example">
+           <h2>Code example</h2>
+           <code>
+              <pre>function multiply(a, b) {
+               return a * b}</pre>
+           </code>
+        </section>
+        <section id="stressLess">
+           <h2>StressLess</h2>
+           <a href="https://jen4211.github.io/rsschool-cv/cv">My first CV</a>
+        </section>
+        <section id="education">
+           <h2>Education</h2>
+           <p>Graduated from the Minsk State Architectural Technical School as a civil engineer.</p>
+        </section>
+        <section id="courses">
+           <h2>Courses</h2>
+           <ul class="list-curses">
+              <li>StreamLine Language School English</li>
+              <li>The Rolling Scopes: «JavaScript/Front-end» </li>
+           </ul>
+        </section>
+        <section id="languages">
+           <h2>Languages</h2>
+           <ul class="list-languages">
+              <li>Russian</li>
+              <li>Belarussian</li>
+              <li>English A1</li>
+           </ul>
+        </section>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="container">
+         <div class="container-footer">
+            <div class="logo">
+                <a href="https://rs.school/js/"><img src="/assets/svg/rs_school_js.svg" alt="logo rs-school"></a> 
+             </div>
+            <div class="text">
+               <p>2022</p>
+            </div>
+            <div class="link"><a href="https://github.com/">Jen4211</a>
+            </div>
+         </div>
+      </div>
+   </footer>
 </body>
 </html>
