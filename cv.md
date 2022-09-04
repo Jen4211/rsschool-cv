@@ -9,7 +9,7 @@
    * Tel  +375295094485
    * Evgeny Guletskiy(Jen4211)#0577 (Discord)
 
-   3. **About me:**
+3. **About me:**
    I am responsible for the tasks assigned to me. 
    I like to learn new things and develop. 
    I am sociable and I am good at joining a new team.
@@ -27,17 +27,19 @@
    module.exports = function reverse (n) {
    let x = n;
   let xReverse = String(Math.abs(x)).split('').reverse().join('');
-  return xReverse;
-}
+  return xReverse;}
    ```
-   6. **StressLess**
-   My first CV: https://Jen4211.github.io/rsschool-cv/cv
-   My projects: * https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/codejam/
-                * https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/momentum/
-                * https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/travel/
+
+6. **StressLess**
+    My first CV:
+      * [CV](https://Jen4211.github.io/rsschool-cv/cv "CV")
+    My projects: 
+      * [codejam](https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/codejam/ "codejam")
+      * [momentum](https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/momentum/ "momentum")
+      * [travel](https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/travel/ "travel")
 7. **Education**
    Graduated from the Minsk State Architectural Technical School as a civil engineer.
-   Finished the course JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT): https://app.rs.school/certificate/fjpn6emg
+   Finished the course JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT): [Certificate](https://app.rs.school/certificate/fjpn6emg "certificate")
 
 8. **Languages**
    * Russian
