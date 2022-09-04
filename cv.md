@@ -15,22 +15,29 @@
    I am sociable and I am good at joining a new team.
    I have a good sense of humour.  
 
-4. **Scills**
+4. **Skills**
    * HTML (basic)
    * CSS (basic)
+   * Java Script (basic)
    * Version control: Git (basic)
    * Editors: VSCode
 
 5. **Code example**
    ``` 
-   function multiply(a, b) {
-   return a * b} 
+   module.exports = function reverse (n) {
+   let x = n;
+  let xReverse = String(Math.abs(x)).split('').reverse().join('');
+  return xReverse;
+}
    ```
    6. **StressLess**
    My first CV: https://Jen4211.github.io/rsschool-cv/cv
-
+   My projects: * https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/codejam/
+                * https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/momentum/
+                * https://rolling-scopes-school.github.io/jen4211-JSFEPRESCHOOL2022Q2/travel/
 7. **Education**
    Graduated from the Minsk State Architectural Technical School as a civil engineer.
+   Finished the course JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT): https://app.rs.school/certificate/fjpn6emg
 
 8. **Languages**
    * Russian
